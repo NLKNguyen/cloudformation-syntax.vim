@@ -1,0 +1,78 @@
+# CfmYamlResourceProperty:
+#   matches: '[TO BE MODIFIED PROGRAMMATICALLY]'
+#   contained_in: yamlBlockMappingKey
+#   highlight_link: Tag 
+
+CfmYamlResourceName:
+  matches: '[TO BE MODIFIED PROGRAMMATICALLY]'
+  contained_in: [yamlFlowString, yamlPlainScalar]
+  highlight_link: Constant
+
+# CfmYamlPseudoParameter:
+#   matches: '[TO BE MODIFIED PROGRAMMATICALLY]'
+#   contained_in: yamlFlowString
+#   highlight_link: StorageClass 
+
+# CfmYamlGeneralProperty:
+#   matches: '[TO BE MODIFIED PROGRAMMATICALLY]'
+#   contained_in: yamlBlockMappingKey
+#   highlight_link: Constant 
+
+# CfmYamlGeneral:
+#   matches: >
+#     Properties
+#   contained_in: yamlBlockMappingKey
+#   highlight_link: Constant 
+
+CfmYamlMainType:
+  matches: >
+    Resources Parameters Mappings Outputs
+  contained_in: yamlBlockMappingKey
+  highlight_link: Include
+
+CfmYamlFunction:
+  matches: >
+    FindInMap Ref
+  contained_in: [yamlPlainScalar, yamlNodeTag]
+  highlight_link: Conditional
+
+# DockerComposeCtx:
+#   keywords: >
+#     context dockerfile args
+#   highlight_link: Repeat
+
+# DockerComposeRef:
+#   keywords: >
+#     cgroup_parent container_name depends_on extends
+#   highlight_link: Repeat
+
+# DockerComposeCap:
+#   keywords: >
+#     cap_add cap_drop 
+#   highlight_link: Repeat
+
+# DockerComposeExt:
+#   keywords: >
+#     ports devices tmpfs expose
+#   highlight_link: Repeat
+
+# DockerComposeNet:
+#   keywords: >
+#     networks dns dns_search extra_hosts external_links extra_hosts
+#   highlight_link: Structure
+
+# DockerComposeRun:
+#   keywords: >
+#     entrypoint command env_file
+#   highlight_link: Statement
+
+# DockerComposeEtc:
+#   keywords: >
+#     aliases 
+#   highlight_link: StorageClass
+
+# DockerComposeDelimiter:
+#   keywords: >
+#     : 
+#   highlight_link: StorageClass
+    

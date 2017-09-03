@@ -1,0 +1,24 @@
+{
+  "name": "docker-compose-syntax-file-generator",
+  "version": "1.0.0",
+  "description": "Automatically generate syntax file for docker-compose.yml based on the YAML input file that contains syntax mapping rules",
+  "main": "generator.js",
+  "scripts": {
+    "start": "node generator.js",
+    "test": "standard generator.js"
+  },
+  "keywords": [
+    "vim",
+    "docker",
+    "docker-compose.yml",
+    "syntax",
+    "file",
+    "generator"
+  ],
+  "author": "Nguyen Nguyen",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "yamljs": "^0.2.9"
+  }
+}
